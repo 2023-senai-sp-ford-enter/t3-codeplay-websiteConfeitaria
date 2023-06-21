@@ -1,4 +1,4 @@
-# codeplay-project1-figma
+# codeplay-project-Confeitaria
 
 ## link projeto: https://www.figma.com/file/2R3lZBJ5SApW5JAkgn0zIF/sweet-and-dreams?type=design&node-id=0%3A1&t=RGd79KXkIutoAhGG-1
 
