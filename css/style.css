@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* topo */
+#topo{
+    background-image: url(/img/cupcakes-g7646ef9be_1280\ 2.png);
+   height: 283px;
+   width: 1255px;
+   border-radius: 52px;
+   
+   margin: 0px auto;
+   margin-top: auto 0px;
+   margin-top: 10px;
+
+}
+
+nav{
+    width: 500px;
+    height: 40px;
+    color: white;
+    transform: translate(105%, 400%);
+   
+}
+nav a:hover{
+    background-color: black;
+    border-radius: 10px;
+    transition: 1.5s;
+    opacity: 80%;
+}
+
+
+ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    
+}
+
+li{
+margin: 10px;
+font-family: 'Inter', sans-serif;
+
+font-size: 25px;
+
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+h2{
+    color: white;
+    font-style: normal;
+    font-family:  'Vidaloka', serif;
+    font-weight: 400;
+    line-height: 58px;
+}
+.logo{
+    
+    width: 442px;
+    height: 40px;
+    font-size: 30px;
+    transform: translate(15%, 300%);
+    
+}
+
+/* fim do topo */
+
+.titulo
+{
+    color: #582F0E;
+    text-align: center;
+    font-size: 150px;
+    font-family: Raleway;
+    margin-bottom: 20px;
+}
+
+
+.img-doces
+{
+
+}
+
+
+.doces
+{
+
+}
+
+.flexbox-contato
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 32px;
+    font-family: Koh Santepheap;
+    
+}
+
+
+.form-contato
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ccc;
+
+    
+
+    width: 1030.883px;
+    height: 660.435px;
+}
+
+
+label, input, textarea
+{
+    margin: 10px 20px;
+}
+
+label
+{
+    
+}
+
+input
+{
+    background-color: #ccc;
+    border: 0px;
+}
+
+
+textarea
+{
+    min-height: 6rem;
+    width: 390px;
+    resize: none;
+    background-color: #ccc;
+    border-top: 0px;
+}
+
+
+.botao-enviar
+{
+    font-size: 32px;
+    margin: 10px 20px;
+    width: 397px;
+    height: 76px;
+    border-radius: 25px;
+    background-color: #FFB5A7;
+}
+
+.botao-enviar:hover{
+
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    border-color: #fff;
+}
+
+
+
+
+
+    
+    
