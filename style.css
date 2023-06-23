@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    
+}
+
+body{
+    background-color: #FAEBDA;
+
+}
+#topo {
+    background-image: url(fotos/cupcakes-g7646ef9be_1280\ 2.png);
+    height: 283px;
+    width: 1255px;
+    border-radius: 52px;
+
+    margin: 0px auto;
+    margin-top: auto 0px;
+    margin-top: 10px;
+
+}
+
+nav {
+    width: 500px;
+    height: 40px;
+    color: white;
+    transform: translate(105%, 400%);
+
+}
+
+nav a:hover {
+    background-color: black;
+    border-radius: 10px;
+    transition: 1.5s;
+    opacity: 80%;
+}
+
+
+ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+
+}
+
+li {
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+
+    font-size: 25px;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.box1{
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: left;
+    margin-right: 31px;
+    
+    
+} 
+.box2{
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: right;
+    margin-left: 31px;
+    
+    
+}
+.box3{
+
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: left;
+    margin-right: 31px;
+    
+}
+
+.box4{
+    
+    width: 400px;
+    height: 250px;
+}
+.box5{
+    width: 400px;
+    height: 250px;
+}
+.box6{
+    width: 400px;
+    height: 250px;
+}
+
+
+.inicio{
+    padding: 50px;
+    margin-bottom: 20px;
+    gap: 5px;
+    
+    
+}
+
+.meio{
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.fim{
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.secao-de-fotos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+}
+
+
+.h1{
+    font-family: Raleway;
+    color: #582F0E;
+    display: flex;
+    width: 1138px;
+    height: 86px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+h4{
+    color: aliceblue;
+}
+
+/*rodape*/
+
+footer{
+    width:100vw;
+    height: 214px;
+    background-color:  rgba(0, 0, 0, 0.65);
+    display: flex;
+
+}
+.logo_rodape{
+    width: 100%;
+    height: 198;
+    background-image: url(fotos/logotipo.png) left;
+    margin-right:9px ;
+    
+}
+
+#rodape{
+    width: 1184px;
+    height:153px ;
+    
+    display: flex;
+    
+    
+}
+#rodape ul{
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 50px;
+
+
+}
+#Pagamentos{
+    
+    width: 469px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+
+}
+#Pagamentos h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: start;
+    transform: translate(0%,-50%);
+    color: white;
+    
+    
+}
+.icones_pagamentos1{
+    width: 90px;
+    height: 100px;
+    
+}
+.icones_pagamentos2{
+    width: 101px;
+    height: 65px;
+    
+}
+.icones_pagamentos3{
+    width: 124px;
+    height: 71px;
+    
+}
+.icones_pagamentos4{
+    width: 74px;
+    height: 74px;
+    
+}
+#caixa{
+    width: 469px;
+    height: 80px;
+    
+   
+}
+
+
+address{
+    color: whitesmoke;
+    float: right;
+    
+}
