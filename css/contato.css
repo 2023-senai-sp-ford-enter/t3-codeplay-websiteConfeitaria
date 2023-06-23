@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+body
+{
+    background-color: #FAEBDA;
+}
+
 
 /* topo */
 #topo{
@@ -95,14 +100,51 @@ h2{
 
 .img-doces
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 550px;
+    height: 660.435px;
+    
+    /* background-color: rgb(114, 113, 111); */
+    
 }
 
 
-.doces
+#doce1
 {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    border-radius: 30px;
 
+    align-self: flex-start;
+
+    width: 229px;
+    height: 192.247px;
 }
+
+#doce2
+{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+
+    align-self: center;
+
+    width: 229px;
+    height: 192.247px;
+}
+
+#doce3
+{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+
+    align-self: flex-start;
+
+    width: 229px;
+    height: 192.247px;
+}
+
 
 .flexbox-contato
 {
@@ -110,8 +152,7 @@ h2{
     justify-content: flex-end;
     align-items: center;
     font-size: 32px;
-    font-family: Koh Santepheap;
-    
+    font-family: Koh Santepheap; 
 }
 
 
@@ -121,8 +162,6 @@ h2{
     flex-direction: column;
     align-items: flex-start;
     background-color: #ccc;
-
-    
 
     width: 1030.883px;
     height: 660.435px;
@@ -134,15 +173,24 @@ label, input, textarea
     margin: 10px 20px;
 }
 
+input, textarea:hover
+{
+    cursor: pointer;
+    
+}
+
 label
 {
-    
+    font-weight: bold;
 }
 
 input
 {
     background-color: #ccc;
-    border: 0px;
+    width: 390px;
+    border-color: #ccc #ccc black #ccc;
+    border-width: 2px;      
+    
 }
 
 
@@ -152,7 +200,8 @@ textarea
     width: 390px;
     resize: none;
     background-color: #ccc;
-    border-top: 0px;
+    border-color: black #ccc black #ccc;
+    border-width: 2px;    
 }
 
 
@@ -164,6 +213,10 @@ textarea
     height: 76px;
     border-radius: 25px;
     background-color: #FFB5A7;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    font-family: Koh Santepheap;
+    font-weight: bold; 
+    border: transparent;    
 }
 
 .botao-enviar:hover{
@@ -171,7 +224,38 @@ textarea
     color: white;
     transition: 0.4s;
     cursor: pointer;
-    border-color: #fff;
+    border: 2px;
+    background: linear-gradient(120deg, #FFB5A7, #FAEBDA);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+
+.flex-icones
+{
+    transform: translate(580px, -70px);
+    
+
+    /* margin-inline-start: 600px;
+    margin-top: 50px; */
+
+    background-color: aqua;
+
+}
+
+.img-icon
+{
+    margin: 0px 20px 0px 20px;
+}
+
+
+.flex-localizacao
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 150px;
 }
 
 
@@ -180,6 +264,7 @@ textarea
     background-color: black;
    
 }
+
 
 
 
