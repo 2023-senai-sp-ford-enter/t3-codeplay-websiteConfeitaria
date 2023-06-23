@@ -1,0 +1,166 @@
+/*post diario*/
+.post {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding-right: 60px;
+    background-color: #fff;
+    height: 650px;
+    margin-bottom: 90px;
+}
+
+.cx1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 60px;
+    padding-top: 60px;
+
+}
+
+
+.colunas {
+    background-color: #fff;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+    margin-top: 80px;
+
+}
+
+.postd {
+    margin-top: 150px;
+    align-items: center;
+    height: 630px;
+    width: 600px;
+    background-color: #fff;
+}
+
+
+
+.cxcoment {
+    background-color:#fff;
+    height: 400px;
+}
+
+#tb {
+    color: sienna;
+    text-align: center;
+
+}
+
+.tp {
+    color: black;
+
+}
+
+/*fim dos posts */
+
+
+
+/* TOPO */
+
+
+#topo {
+    background-image: url(img/banner.png);
+    height: 283px;
+    width: 1255px;
+    border-radius: 52px;
+
+    margin: 0px auto;
+    margin-top: auto 0px;
+    margin-top: 10px;
+
+}
+
+nav {
+    width: 500px;
+    height: 40px;
+    color: white;
+    transform: translate(105%, 400%);
+
+}
+
+nav a:hover {
+    background-color: black;
+    border-radius: 10px;
+    transition: 1.5s;
+    opacity: 80%;
+}
+
+
+ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+
+}
+
+li {
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+
+    font-size: 25px;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+h2 {
+    color: #fff;
+    font-style: normal;
+    font-family: 'Vidaloka', serif;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+}
+
+.logo {
+
+    width: 442px;
+    height: 40px;
+    font-size: 30px;
+    transform: translate(15%, 300%);
+
+}
+
+
+
+/* login colaborador */
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.login {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.posicao{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 16px;
+    height: 100px;
+    }
+    
