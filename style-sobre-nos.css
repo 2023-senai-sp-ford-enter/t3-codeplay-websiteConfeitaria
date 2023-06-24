@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+
+
+body{
+    background-color: #FAEBDA;
+
+}
+
+h2{
+    color: white;
+    font-style: normal;
+    font-family:  'Vidaloka', serif;
+    font-weight: 400;
+    line-height: 58px;
+}
+.logo{
+    
+    width: 442px;
+    height: 40px;
+    font-size: 30px;
+    transform: translate(15%, 300%);
+    
+}
+#topo {
+    background-image: url(fotos/cupcakes-g7646ef9be_1280\ 2.png);
+    height: 283px;
+    width: 1255px;
+    border-radius: 52px;
+
+    margin: 0px auto;
+    margin-top: auto 0px;
+    margin-top: 10px;
+
+}
+
+nav {
+    width: 500px;
+    height: 40px;
+    color: white;
+    transform: translate(105%, 400%);
+
+}
+
+nav a:hover {
+    background-color: black;
+    border-radius: 10px;
+    transition: 1.5s;
+    opacity: 80%;
+}
+
+
+ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+
+}
+
+li {
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+
+    font-size: 25px;
+
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+h1{
+    color: #582F0E;
+    font-size: 63.724px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    width: 1138px;
+    height: 86px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.box1{
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: left;
+    margin-right: 31px;
+    
+} 
+
+.box2{
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: right;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    
+    
+}
+.box3{
+
+    border-radius: 38px;
+    width: 437px;
+    height: 261px;
+    float: left;
+    margin-right: 31px;
+    margin-top: 10px;
+    
+}
+
+.box4{
+    
+    width: 400px;
+    height: 250px;
+}
+.box5{
+    width: 400px;
+    height: 250px;
+}
+.box6{
+    width: 400px;
+    height: 250px;
+}
+
+.container .content {
+    bottom: 0;
+    color: #f1f1f1; 
+    width: 100%;
+    
+}
+
+.inicio{
+    padding: 50px;
+    margin-bottom: 20px;
+    gap: 5px;
+    
+    
+}
+
+.meio{
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.fim{
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.secao-de-fotos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    gap: 10px;
+
+    
+}
+
+
+
+
+/*rodape*/
+
+footer{
+    width:100vw;
+    height: 200px;
+    background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
+    display: flex;
+    
+
+}
+.logo_rodape{
+   
+    background-image: url(fotos/logotipo.png) left;
+    margin-right:9px ;
+    
+    
+}
+.logotipo{
+    width: 228px;
+    height: 190;
+}
+
+#rodape{
+    width: 1184px;
+    height:153px ;
+    
+    display: flex;
+    
+    
+}
+#rodape ul{
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 80px;
+    margin-left: 60px;
+    width: 100px;
+}
+
+#lista_rodape li{
+    
+    text-align:center ;
+    width: 100px;
+    
+}
+    
+#lista_rodape li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1.2s;
+    transform: scale(1.2);
+
+}
+
+
+
+#Pagamentos{
+    
+    width: 469px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+    margin-left: 0px;
+    
+
+}
+#Pagamentos h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: start;
+    transform: translate(0%,-50%);
+    color: white;
+    
+    
+}
+.icones_pagamentos1{
+    width: 70px;
+    height: 70px;
+    
+}
+.icones_pagamentos2{
+    width: 70px;
+    height: 70px;
+    
+}
+.icones_pagamentos3{
+    width: 70px;
+    height: 70px;
+    
+}
+.icones_pagamentos4{
+    width: 70px;
+    height: 70px;
+    
+}
+#caixa{
+    width: 400px;
+    height: 80px;
+    
+   
+}
+#Endereço{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 0;
+   
+}
+
+.lista_endereço li{
+    font-size: 20px;
+    font-family:'KoHo', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 200;
+    width: 250px;   
+}
