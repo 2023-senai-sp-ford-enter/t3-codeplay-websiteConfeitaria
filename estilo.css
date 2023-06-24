@@ -44,8 +44,12 @@ nav{
 nav a:hover{
     background-color: black;
     border-radius: 10px;
-    transition: 1.5s;
+    transition: 1.2s;
     opacity: 80%;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #eb5538, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #a82d14;
 }
 
 
