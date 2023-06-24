@@ -40,7 +40,7 @@ ul{
 
 li{
 margin: 10px;
-font-family: 'Inter', sans-serif;
+font-family: 'Vidaloka', sans-serif;
 
 font-size: 25px;
 
@@ -75,9 +75,8 @@ h2{
 
 body {
     background-color: #FAEBDA;
-    word-break: initial;
 }
-.ice-cream>h1{
+.ice-cream h1 {
     
     display: flex;
     justify-content: center;
@@ -85,15 +84,16 @@ body {
     margin: auto;
     margin-top: 10rem;
     font-size: 150px;
-    
-
+    border-radius: 200px;
 }
 
 .secProduto {
     display: flex;
     flex-wrap: wrap;
-    margin-top: auto;
-    justify-content: center;
+    margin-top: -200px;
+    justify-content: space-around;
+    bottom: 150px;
+    border-radius: 100px;
     /*height: 500px ;
     width: 100%;
     align-items: center;
@@ -104,17 +104,20 @@ body {
 .containerCard {
     justify-content: space-between;
     height: 100%;
+    border-style: initial;
+    margin-top: -80px;
+    font-family:  'Vidaloka', serif;
+    font-style: normal; 
+    border-radius: 200px;
     
-
 }
 
 .contentCard {
-    display: flex;
-    width: 80%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-   
+    height: 20%;
+    justify-content: space-around;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    
+    
 
 }
 
@@ -130,6 +133,8 @@ body {
     justify-content: center;
     margin-top: 20rem;
     border: 0px solid #000;
+
+    
     
 }
 
@@ -139,6 +144,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border-radius: 200px;
 }
 
 .containerCardImg > img {
@@ -147,10 +153,16 @@ body {
     object-fit: cover;
     border-radius: 0.5rem;
     margin-top: 2rem;
+    border: 10px solid rosybrown;
+    transition: 1s;font-size: 10px;
+    cursor: pointer; 
+    box-shadow: 10px 10px  #FAEBDA;
+    
 }
 
 .containerCardImg>img {
     object-position: bottom;
+    
 }
 
 .conteudoCard {
@@ -160,29 +172,30 @@ body {
     height: 15%;
     justify-content: space-between;
     align-items: center;
+    
 }
-/*
+
 .conteudoCard>h1 {
     width: 50%;
     font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #a89c9c;
+    color: #4f2c1d;
 }
 .conteudoCard>h1>p {
     width: 20%;
     font-size: 23px;
     font-weight: bold;
-    color: #a89c9c;
+    color: #4f2c1d;
 }
-*/
+
 
 .conteudoCard>a>button {
     height: 30px;
     padding: 0.2rem 1rem;
     border: none;
     background-color: var(--principal-color);
-    color: #eeeeee;
+    color: #4f2c1d;
     font-size: 14px;
     text-transform: uppercase;
     transition: 0.05s;
@@ -190,4 +203,142 @@ body {
 
 .conteudoCard button:hover {
     cursor: pointer;
+}
+
+.contentCard p {
+    color: #4f2c1d;
+    white-space: pre-wrap;
+    margin-left: 2rem;
+    text-align: center;
+
+}
+
+/* COMEÇO FOOTER */
+footer{
+    width:100vw;
+    height: 200px;
+    background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+.logo_rodape{
+    width: 228px;
+    height: 190;
+    background-image: url(imagens/Gold_Luxury_Initial_Circle_Logo__1_-removebg-preview\ 2.png) left;
+    margin-right:9px ;
+    
+    
+}
+
+#rodape{
+    width: 1184px;
+    height:153px ;
+    display: flex;
+    
+    
+    
+}
+#rodape ul{
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 100px;
+    
+    
+    
+}
+
+#lista_rodape li{
+    
+    text-align:center;
+    width:100px;
+    margin-top: -10px;
+   
+    
+}
+    
+#lista_rodape li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1.2s;
+    transform: scale(1.2);
+  
+
+}
+
+
+
+#Pagamentos{
+    
+    width: 469px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+    
+    margin-left: 100px;
+    
+
+}
+#Pagamentos h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: start;
+    transform: translate(0%,-50%);
+    color: white;
+    
+    
+}
+.icones_pagamentos1{
+    width: 90px;
+    height: 100px;
+    
+}
+.icones_pagamentos2{
+    width: 101px;
+    height: 65px;
+    
+}
+.icones_pagamentos3{
+    width: 124px;
+    height: 71px;
+    
+}
+.icones_pagamentos4{
+    width: 74px;
+    height: 74px;
+    
+}
+#caixa{
+    width: 469px;
+    height: 80px;
+    
+   
+}
+#Endereço{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;  
+   
+}
+
+.lista_endereço li{
+    font-size: 24px;
+    font-family:'KoHo', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 200;
+    width: 300px; 
+    
 }
