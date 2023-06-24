@@ -192,13 +192,16 @@ body {
 
 .conteudoCard>a>button {
     height: 30px;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 1rem 0.5rem;
     border: none;
-    background-color: var(--principal-color);
+    background-color: rosybrown;
     color: #4f2c1d;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    transition: 0.05s;
+    transition: 0.5s;
+    font-style: italic;
+    border-radius: 150px;
+    
 }
 
 .conteudoCard button:hover {
@@ -212,6 +215,8 @@ body {
     text-align: center;
 
 }
+
+
 
 /* COMEÇO FOOTER */
 footer{
@@ -342,3 +347,4 @@ footer{
     width: 300px; 
     
 }
+
