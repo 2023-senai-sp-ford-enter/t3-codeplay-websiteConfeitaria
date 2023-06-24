@@ -1,0 +1,350 @@
+/* TOPO */
+
+
+#topo{
+    background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
+   height: 283px;
+   width: 1255px;
+   border-radius: 52px;
+   
+   margin: 0px auto;
+   margin-top: auto 0px;
+   margin-top: 10px;
+
+}
+
+nav{
+    width: 500px;
+    height: 40px;
+    color: white;
+    transform: translate(105%, 400%);
+   
+}
+nav a:hover{
+    background-color: black;
+    border-radius: 10px;
+    transition: 1.5s;
+    opacity: 80%;
+}
+
+
+ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    
+}
+
+li{
+margin: 10px;
+font-family: 'Vidaloka', sans-serif;
+
+font-size: 25px;
+
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+h2{
+    color: white;
+    font-style: normal;
+    font-family:  'Vidaloka', serif;
+    font-weight: 400;
+    line-height: 58px;
+}
+.logo{
+    
+    width: 442px;
+    height: 40px;
+    font-size: 30px;
+    transform: translate(15%, 300%);
+    
+}
+
+/* FIM DO TOPO */
+
+body {
+    background-color: #FAEBDA;
+}
+.ice-cream h1 {
+    
+    display: flex;
+    justify-content: center;
+    color: #4f2c1d;
+    margin: auto;
+    margin-top: 10rem;
+    font-size: 150px;
+    border-radius: 200px;
+}
+
+.secProduto {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -200px;
+    justify-content: space-around;
+    bottom: 150px;
+    border-radius: 100px;
+    /*height: 500px ;
+    width: 100%;
+    align-items: center;
+    */
+}
+
+
+.containerCard {
+    justify-content: space-between;
+    height: 100%;
+    border-style: initial;
+    margin-top: -80px;
+    font-family:  'Vidaloka', serif;
+    font-style: normal; 
+    border-radius: 200px;
+    
+}
+
+.contentCard {
+    height: 20%;
+    justify-content: space-around;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    
+    
+
+}
+
+
+.card {
+    width: 30rem;
+    height: 100%;
+    background-color: #E9CAC4;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+    border: 0px solid #000;
+
+    
+    
+}
+
+.containerCardImg {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 200px;
+}
+
+.containerCardImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    border: 10px solid rosybrown;
+    transition: 1s;font-size: 10px;
+    cursor: pointer; 
+    box-shadow: 10px 10px  #FAEBDA;
+    
+}
+
+.containerCardImg>img {
+    object-position: bottom;
+    
+}
+
+.conteudoCard {
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.conteudoCard>h1 {
+    width: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #4f2c1d;
+}
+.conteudoCard>h1>p {
+    width: 20%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #4f2c1d;
+}
+
+
+.conteudoCard>a>button {
+    height: 30px;
+    padding: 0.2rem 1rem 0.5rem;
+    border: none;
+    background-color: rosybrown;
+    color: #4f2c1d;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-style: italic;
+    border-radius: 150px;
+    
+}
+
+.conteudoCard button:hover {
+    cursor: pointer;
+}
+
+.contentCard p {
+    color: #4f2c1d;
+    white-space: pre-wrap;
+    margin-left: 2rem;
+    text-align: center;
+
+}
+
+
+
+/* COMEÇO FOOTER */
+footer{
+    width:100vw;
+    height: 200px;
+    background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
+    display: flex;
+    margin-top: 20px;
+    
+
+}
+.logo_rodape{
+    width: 228px;
+    height: 190;
+    background-image: url(imagens/Gold_Luxury_Initial_Circle_Logo__1_-removebg-preview\ 2.png) left;
+    margin-right:9px ;
+    
+    
+}
+
+#rodape{
+    width: 1184px;
+    height:153px ;
+    display: flex;
+    
+    
+    
+}
+#rodape ul{
+    flex-direction: column;
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 100px;
+    
+    
+    
+}
+
+#lista_rodape li{
+    
+    text-align:center;
+    width:100px;
+    margin-top: -10px;
+   
+    
+}
+    
+#lista_rodape li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1.2s;
+    transform: scale(1.2);
+  
+
+}
+
+
+
+#Pagamentos{
+    
+    width: 469px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+    
+    margin-left: 100px;
+    
+
+}
+#Pagamentos h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    text-align: start;
+    transform: translate(0%,-50%);
+    color: white;
+    
+    
+}
+.icones_pagamentos1{
+    width: 90px;
+    height: 100px;
+    
+}
+.icones_pagamentos2{
+    width: 101px;
+    height: 65px;
+    
+}
+.icones_pagamentos3{
+    width: 124px;
+    height: 71px;
+    
+}
+.icones_pagamentos4{
+    width: 74px;
+    height: 74px;
+    
+}
+#caixa{
+    width: 469px;
+    height: 80px;
+    
+   
+}
+#Endereço{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;  
+   
+}
+
+.lista_endereço li{
+    font-size: 24px;
+    font-family:'KoHo', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 200;
+    width: 300px; 
+    
+}
+
