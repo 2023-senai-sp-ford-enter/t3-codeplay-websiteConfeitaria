@@ -17,7 +17,8 @@ body
 
 /* topo */
 #topo{
-    background-image: url(/img/cupcakes-g7646ef9be_1280\ 2.png);
+
+     background: url(/img/cupcakebanner.png);
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -25,7 +26,6 @@ body
    margin: 0px auto;
    margin-top: auto 0px;
    margin-top: 10px;
-
 }
 
 nav{
@@ -33,7 +33,7 @@ nav{
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
-   
+
 }
 nav a:hover{
     background-color: black;
