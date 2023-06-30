@@ -191,21 +191,28 @@ body {
 
 
 .conteudoCard>a>button {
-    height: 30px;
+    height: 55px;
     padding: 0.2rem 1rem 0.5rem;
     border: none;
     background-color: rosybrown;
+    font-weight: bold;
     color: #4f2c1d;
     font-size: 12px;
     text-transform: uppercase;
     transition: 0.5s;
     font-style: italic;
     border-radius: 150px;
+    background-color: rosybrown;
+    border-radius: 20px;
+    transition: 1.5s;
+    opacity: 80%;
+    
     
 }
 
 .conteudoCard button:hover {
     cursor: pointer;
+    transition: 1.5s;
 }
 
 .contentCard p {
