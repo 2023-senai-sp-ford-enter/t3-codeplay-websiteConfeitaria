@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 /* TOPO */
 
 
+
 #topo{
-    background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
+   background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -40,8 +43,6 @@ ul{
 
 li{
 margin: 10px;
-font-family: 'Vidaloka', sans-serif;
-
 font-size: 25px;
 
 
@@ -58,7 +59,6 @@ nav a{
 h2{
     color: white;
     font-style: normal;
-    font-family:  'Vidaloka', serif;
     font-weight: 400;
     line-height: 58px;
 }
@@ -73,18 +73,22 @@ h2{
 
 /* FIM DO TOPO */
 
+
 body {
+    
     background-color: #FAEBDA;
 }
 .ice-cream h1 {
-    
+
+   
+    font-family: 'Great Vibes', cursive;
     display: flex;
     justify-content: center;
     color: #4f2c1d;
     margin: auto;
-    margin-top: 10rem;
-    font-size: 150px;
-    border-radius: 200px;
+    font-size: 200px;
+   
+
 }
 
 .secProduto {
@@ -94,10 +98,7 @@ body {
     justify-content: space-around;
     bottom: 150px;
     border-radius: 100px;
-    /*height: 500px ;
-    width: 100%;
-    align-items: center;
-    */
+   
 }
 
 
@@ -106,7 +107,6 @@ body {
     height: 100%;
     border-style: initial;
     margin-top: -80px;
-    font-family:  'Vidaloka', serif;
     font-style: normal; 
     border-radius: 200px;
     
@@ -131,7 +131,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 15rem;
     border: 0px solid #000;
 
     
@@ -179,7 +179,6 @@ body {
     width: 50%;
     font-size: 28px;
     font-weight: bold;
-    text-transform: uppercase;
     color: #4f2c1d;
 }
 .conteudoCard>h1>p {
@@ -187,6 +186,7 @@ body {
     font-size: 23px;
     font-weight: bold;
     color: #4f2c1d;
+    
 }
 
 
