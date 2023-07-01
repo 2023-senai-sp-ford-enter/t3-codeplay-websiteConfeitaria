@@ -106,79 +106,88 @@ body {
 
 /* TOPO */
 
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap');
 
-#topo {
-    background-image: url(img_blog/banner.png);
-    height: 283px;
-    width: 1255px;
-    border-radius: 52px;
 
-    margin: 0px auto;
-    margin-top: auto 0px;
-    margin-top: 10px;
+#topo{
+    background-image: url(imagens/cupcakes-g7646ef9be_1280\ 2.png);
+   height: 283px;
+   width: 1255px;
+   border-radius: 52px;
+   
+   margin: 0px auto;
+   margin-top: auto 0px;
+   margin-top: 10px;
 
 }
 
-nav {
+nav{
     width: 500px;
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
-
+   
 }
-
-nav a:hover {
-    background-color: black;
+nav a:hover{
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
-    transition: 1.5s;
-    opacity: 80%;
+    color: black;
+    transition: 1.2s;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
-ul {
+ul{
 
     list-style: none;
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    
+    
+}
+
+li{
+margin: 10px;
+font-family: 'Inter', sans-serif;
+
+font-size: 25px;
+
 
 
 }
-
-li {
-    margin: 10px;
-    font-family: 'Inter', sans-serif;
-
-    font-size: 25px;
-
-
-
-}
-
-nav a {
+nav a{
     text-decoration: none;
     color: white;
-
+    
 }
 
 
 
-h2 {
-    color: #fff;
+h2{
+    color: white;
     font-style: normal;
-    font-family: 'Vidaloka', serif;
+    font-family:  'Vidaloka', serif;
     font-weight: 400;
     line-height: 58px;
-    text-align: center;
 }
-
-.logo {
-
+.logo{
+    
     width: 442px;
     height: 40px;
     font-size: 30px;
     transform: translate(15%, 300%);
-
+    
 }
 
 /* fim do topo */
