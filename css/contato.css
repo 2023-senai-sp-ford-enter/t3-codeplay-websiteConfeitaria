@@ -29,7 +29,10 @@ body
 
 
 #topo{
+
     background-image: url(/img/cupcakes-g7646ef9be_1280\ 2.png );
+     background: url(/img/cupcakebanner.png);
+
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -37,7 +40,6 @@ body
    margin: 0px auto;
    margin-top: auto 0px;
    margin-top: 10px;
-
 }
 
 nav{
@@ -45,7 +47,7 @@ nav{
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
-   
+
 }
 nav a:hover{
     background: rgba(255, 255, 255, 0.39);
@@ -363,11 +365,11 @@ textarea:hover
 
 /* COMEÇO FOOTER */
 footer{
-    width:100vw;
-    height: 200px;
+    width:1900px;
+    height: 300px;
     background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
     display: flex;
-    
+    padding: 50px;
 
 }
 .logo_rodape{
@@ -377,12 +379,13 @@ footer{
     margin-right:9px ;
     
     
+    
 }
 
 #rodape{
     width: 1184px;
     height:153px ;
-    
+    margin: 10px;
     display: flex;
     
     
@@ -411,6 +414,7 @@ footer{
     border-radius: 10px;
     transition: 1.2s;
     transform: scale(1.2);
+    padding: 10px;
 
 }
 
@@ -460,10 +464,7 @@ footer{
 }
 #caixa{
     width: 469px;
-    height: 20px;
-    margin-top: 70px;
-    
-    
+    height: 80px;
     
    
 }
@@ -473,7 +474,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 250px;
    
 }
 
@@ -484,8 +485,6 @@ footer{
     font-weight: 200;
     width: 300px;   
 }
-
-
 
 
 

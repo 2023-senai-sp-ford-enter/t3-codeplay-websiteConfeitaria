@@ -126,10 +126,50 @@ h1{
     font-family: 'Noto Sans', sans-serif;
     font-size: 32px;
     line-height: 39px;
-    
+    display: flex;
     background-image: url(imagens/pexels-roman-odintsov-5061254\ 1\ -\ Copia.png);
+    opacity: 0.8;
+    
+
+    
+} 
+
+.link{
+    
+    width: 302px;
+    height: 432px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    
     
 }
+
+h3{
+    text-align: center;
+    margin-top: 200px;
+    font-family:  'Newsreader', serif;
+    font-weight: 500;
+    
+}
+h3:hover{
+    transform: scale(1.2);
+    transition: 1.1s;
+    color:white;
+    -webkit-text-stroke-color:white;
+    -webkit-text-stroke-width: 1px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    margin: 2px;
+}
+
+p:hover{
+    transform: scale(1.2);
+    transition: 1.1s;
+}
+/* 
 .produtos1 a{
     color: white;
     text-decoration: none;
@@ -140,70 +180,50 @@ h1{
     margin-top: 300px;
     margin-left: 10px;
 }
+ */
 .produtos2{
     width: 302px;
     height: 432px;
     border-radius: 38px;
-    font-weight: 800;
+    font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
     font-size: 32px;
     line-height: 39px;
-    
+    display: flex;
     background-image: url(imagens/Mask\ group.png);
+    opacity: 0.8;
     
 }
-.produtos2 a{
-    color: white;
-    text-decoration: none;
-}
-.produtos2 p{
-    text-align:start;
-    margin-top: 300px;
-    margin-left: 20px;
-}
+
 .produtos3{
     width: 302px;
     height: 432px;
     border-radius: 38px;
-    font-weight: 800;
+    font-weight: bold;
     font-family: 'Noto Sans', sans-serif;
     font-size: 32px;
     line-height: 39px;
+    display: flex;
+    background-image: url(imagens/novo3.png);
+    opacity: 0.8;
     
-    background-image: url(imagens/pexels-jess-bailey-designs-913136\ 1.png);
-    
 }
-.produtos3 a{
-    color: white;
-    text-decoration: none;
-}
-.produtos3 p{
-    text-align:start;
-    margin-top: 300px;
-    margin-left: 10px;
-}
+
 
 .produtos4{
     width: 302px;
     height: 432px;
     border-radius: 38px;
-    font-weight: 800;
-    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-family: newes;
     font-size: 32px;
     line-height: 39px;
-    
+    display: flex;
     background-image: url(imagens/pexels-meggy-kadam-aryanto-7451344\ 1.png);
+    opacity: 0.8;
     
 }
-.produtos4 a{
-    color: white;
-    text-decoration: none;
-}
-.produtos4 p{
-    text-align:start;
-    margin-top: 300px;
-    margin-left: 10px;
-}
+
 /* FIM DO CATALOGO */
 
 /* COMEÇO DO INSTAGRAM */
@@ -304,11 +324,11 @@ button:hover{
 
 /* COMEÇO FOOTER */
 footer{
-    width:100vw;
-    height: 200px;
+    width:1900px;
+    height: 300px;
     background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
     display: flex;
-    
+    padding: 50px;
 
 }
 .logo_rodape{
@@ -318,12 +338,13 @@ footer{
     margin-right:9px ;
     
     
+    
 }
 
 #rodape{
     width: 1184px;
     height:153px ;
-    
+    margin: 10px;
     display: flex;
     
     
@@ -352,6 +373,7 @@ footer{
     border-radius: 10px;
     transition: 1.2s;
     transform: scale(1.2);
+    padding: 10px;
 
 }
 
@@ -411,7 +433,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 250px;
    
 }
 
