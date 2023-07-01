@@ -15,10 +15,24 @@ body
 }
 
 
-/* topo */
+/* FONTES banner */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap');
+
+
+/* TOPO */
+
+
 #topo{
 
+    background-image: url(/img/cupcakes-g7646ef9be_1280\ 2.png );
      background: url(/img/cupcakebanner.png);
+
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -36,14 +50,14 @@ nav{
 
 }
 nav a:hover{
-    background-color: black;
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
+    color: black;
     transition: 1.2s;
-    opacity: 80%;
     border:#cf9a8f solid 2px;
     transform: scale(1.1);
-    box-shadow: 0 0 1.2em #eb5538, 0 0 1.2em #cf9a8f,
-    0 0 1.2em #a82d14;
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
@@ -89,7 +103,8 @@ h2{
     transform: translate(15%, 300%);
     
 }
-/* fim do topo */
+
+/* FIM DO TOPO */
 
 .titulo
 {
@@ -316,7 +331,6 @@ textarea:hover
     border: white 5px solid;
     box-shadow: 0 0 1em #df5b41, 0 0 1em #cf9a8f,
     0 0 1em #a76b5f;
-    
 }
 /* fim redes sociais */
 
