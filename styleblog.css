@@ -171,18 +171,54 @@ input {
     height: 30px;
 }
 
-.login {
-    text-align: center;
-    position: absolute;
-    width: 100%;
+.containerlogin {
+
+    display: flex;
+    justify-content: space-around;
+    width: 2000px;
+    text-align: left;
+    background-color: #E9CAC4;
+    margin-right: 40rem;
+    color: #5e2b01d5;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+
 }
+
+.tp {
+    border: #582F0E solid 1px;
+    margin: auto;
+}
+
+.usuario {
+
+    width: 500px;
+    border: #582F0E 2px solid;
+}
+
+.comentario {
+    width: 500px;
+    border: #FAEBDA 1px solid;
+}
+
+.containerlogin p a {
+
+    width: 600px;
+    text-align: left;
+    text-decoration: underline;
+    color: #5e2b01d5;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+
 
 
 
 .posicao {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-end;
     background-color: #FAEBDA;
     padding: 16px;
     height: 100px;
@@ -200,32 +236,34 @@ input {
 
 
 /* COMEÇO FOOTER */
-footer{
+footer {
     width: 100vw;
     height: 250px;
-    background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
+    background-image: linear-gradient(40deg, black, rgb(51, 47, 42));
     display: flex;
-    
+
 
 }
-.logo_rodape{
+
+.logo_rodape {
     width: 150px;
     height: 150;
     background-image: url(img_blog/logoloja.png) left;
-    margin-right:9px ;
-    
-    
+    margin-right: 9px;
+
+
 }
 
-#rodape{
+#rodape {
     width: 1184px;
-    height:153px ;
-    
+    height: 153px;
+
     display: flex;
-    
-    
+
+
 }
-#rodape ul{
+
+#rodape ul {
     flex-direction: column;
     font-family: 'KoHo', sans-serif;
     font-size: 18px;
@@ -235,13 +273,13 @@ footer{
     width: 100px;
 }
 
-#lista_rodape li{
-    
-    text-align:center ;
+#lista_rodape li {
+
+    text-align: center;
     width: 100px;
 }
-    
-#lista_rodape li:hover{
+
+#lista_rodape li:hover {
     background-color: white;
     color: black;
     cursor: pointer;
@@ -253,69 +291,76 @@ footer{
 
 
 
-#Pagamentos{
-    
+#Pagamentos {
+
     width: 300px;
     height: 190px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: end;
-    
+
     margin-left: 100px;
-    
+
 
 }
-#Pagamentos h1{
+
+#Pagamentos h1 {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     text-align: start;
-    transform: translate(0%,-50%);
+    transform: translate(0%, -50%);
     color: white;
-    
-    
+
+
 }
-.icones_pagamentos1{
+
+.icones_pagamentos1 {
     width: 90px;
     height: 100px;
-    
+
 }
-.icones_pagamentos2{
+
+.icones_pagamentos2 {
     width: 90px;
     height: 65px;
-    
+
 }
-.icones_pagamentos3{
+
+.icones_pagamentos3 {
     width: 124px;
     height: 71px;
-    
+
 }
-.icones_pagamentos4{
+
+.icones_pagamentos4 {
     width: 74px;
     height: 74px;
-    
+
 }
-#caixa{
+
+#caixa {
     width: 469px;
     height: 80px;
-    
-   
+
+
 }
-#Endereço{
+
+#Endereço {
     width: 100px;
     height: auto;
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-   
+
 }
 
-.lista_endereço li{
+.lista_endereço li {
     font-size: 20px;
-    font-family:'KoHo', sans-serif;
+    font-family: 'KoHo', sans-serif;
     font-weight: 200;
-    width: 100px; 
-    height: 40px;  
+    width: 100px;
+    height: 40px;
 }
 
 
