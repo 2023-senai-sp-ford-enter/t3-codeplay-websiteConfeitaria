@@ -54,10 +54,14 @@ nav {
 }
 
 nav a:hover {
-    background-color: black;
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
-    transition: 1.5s;
-    opacity: 80%;
+    color: black;
+    transition: 1.2s;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
