@@ -151,12 +151,12 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 3.5rem;
     margin-top: 2rem;
     border: 10px solid rosybrown;
     transition: 1s;font-size: 10px;
     cursor: pointer; 
-    box-shadow: 10px 10px  #FAEBDA;
+    box-shadow: 10px 10px #4f2c1d;
     
 }
 
@@ -189,6 +189,11 @@ body {
     
 }
 
+.conteudoCard button {
+   margin-left: 0.5rem;
+    
+}
+
 
 .conteudoCard>a>button {
     height: 55px;
@@ -199,14 +204,13 @@ body {
     color: #4f2c1d;
     font-size: 12px;
     text-transform: uppercase;
-    transition: 0.5s;
+    transition: 3.5s;
     font-style: italic;
     border-radius: 150px;
     background-color: rosybrown;
     border-radius: 20px;
-    transition: 1.5s;
-    opacity: 80%;
-    
+    transition: 4.5s;
+    opacity: 80%; 
     
 }
 
