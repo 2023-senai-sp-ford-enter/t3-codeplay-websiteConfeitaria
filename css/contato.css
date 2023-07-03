@@ -30,7 +30,7 @@ body
 
 #topo{
 
-   background-image: url(/img/banner.png);
+   background-image: url(../img/cupcakebanner.png);
 
    height: 283px;
    width: 1255px;
@@ -212,8 +212,6 @@ h2{
     align-items: center;
     font-size: 32px;
     font-family: Koh Santepheap; 
-    border-width: 3px 0px 3px 3px;
-    border-color: black;
 }
 
 
