@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Sweeties and Dreams</title>
     <link rel="stylesheet" href="styleblog.css">
+    <script src="blog.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,700&family=Ysabeau+SC:wght@500;600&display=swap');
@@ -110,18 +111,36 @@
 
 
     <div class="containerlogin">
-        
-        <div class="usuario">
-            <h3>LOGIN</h3>
-            <p><a href="colaborador.html"><img src="img_blog/icone-chapeu.png">Colaborador</a></p>
-            <p><a href="usuario.html"><img src="img_blog/icone usuario.png"> Usuário</a></p>
-    
-        </div>
 
         <div class="comentario">
             <h2 class="tp">Comentários e Avaliações</h2>
         </div>
-    </div>
+
+
+
+        <form class="comente">
+            <label>Registre seu feedback:  </label>
+            <input type="text" id="entradaUsuario"> <br>
+            <input type="button" value="comentar" onclick="inserir()">
+             <label for="n1"></label>
+
+
+                <ul id="lista">
+                    <p></p>
+                </ul>
+            
+            
+
+        </form>
+
+
+        <div class="usuario">
+            <h3>LOGIN</h3>
+            <p><a href="colaborador.html"><img src="img_blog/icone-chapeu.png">Colaborador</a></p>
+            <p><a href="usuario.html"><img src="img_blog/icone usuario.png"> Usuário</a></p>
+        </div>
+
+
     </div>
 
 
@@ -173,5 +192,6 @@
 
     </footer>
 </body>
+
 
 </html>
