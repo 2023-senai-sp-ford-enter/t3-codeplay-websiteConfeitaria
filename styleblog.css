@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 /*post diario*/
 .post {
     display: flex;
@@ -16,6 +22,8 @@
 
 body {
     background: #FAEBDA;
+    width: auto;
+    height: auto;
 
 }
 
@@ -30,20 +38,32 @@ body {
 
 .colunas {
     background-color: #FAEBDA;
-    margin-bottom: 75px;
     display: flex;
-    flex-direction: row;
+    width: 1258px;
+    height: 841px;
     justify-content: space-between;
-    height: 1000px;
-    margin-top: 80px;
+    margin: 0px auto;
+    margin-top: 30px;
+    
 
 }
+
+.colunas_laterais{
+    border-radius: 10px;
+    
+}
+ 
 
 .postd {
     margin-top: 150px;
     align-items: center;
     height: 630px;
     width: 600px;
+}
+
+.post{
+    margin:0px auto;
+    margin-bottom: 200px;
 }
 
 
@@ -69,6 +89,7 @@ body {
     color: #582F0E;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 70px;
 
 }
 
@@ -85,79 +106,88 @@ body {
 
 /* TOPO */
 
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap');
 
-#topo {
-    background-image: url(img_blog/banner.png);
-    height: 283px;
-    width: 1255px;
-    border-radius: 52px;
 
-    margin: 0px auto;
-    margin-top: auto 0px;
-    margin-top: 10px;
+#topo{
+    background-image: url(imagens/cupcakes-g7646ef9be_1280\ 2.png);
+   height: 283px;
+   width: 1255px;
+   border-radius: 52px;
+   
+   margin: 0px auto;
+   margin-top: auto 0px;
+   margin-top: 10px;
 
 }
 
-nav {
+nav{
     width: 500px;
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
-
+   
 }
-
-nav a:hover {
-    background-color: black;
+nav a:hover{
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
-    transition: 1.5s;
-    opacity: 80%;
+    color: black;
+    transition: 1.2s;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
-ul {
+ul{
 
     list-style: none;
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    
+    
+}
+
+li{
+margin: 10px;
+font-family: 'Inter', sans-serif;
+
+font-size: 25px;
+
 
 
 }
-
-li {
-    margin: 10px;
-    font-family: 'Inter', sans-serif;
-
-    font-size: 25px;
-
-
-
-}
-
-nav a {
+nav a{
     text-decoration: none;
     color: white;
-
+    
 }
 
 
 
-h2 {
-    color: #fff;
+h2{
+    color: white;
     font-style: normal;
-    font-family: 'Vidaloka', serif;
+    font-family:  'Vidaloka', serif;
     font-weight: 400;
     line-height: 58px;
-    text-align: center;
 }
-
-.logo {
-
+.logo{
+    
     width: 442px;
     height: 40px;
     font-size: 30px;
     transform: translate(15%, 300%);
-
+    
 }
 
 /* fim do topo */
@@ -255,6 +285,7 @@ input {
 
 
 /* COMEÇO FOOTER */
+
 footer {
     width: 100vw;
     height: 250px;
@@ -271,11 +302,34 @@ footer {
     margin-right: 9px;
 
 
+=======
+footer{
+    width:1900px;
+    height: 300px;
+    background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
+    display: flex;
+    padding: 50px;
+
+}
+.logo_rodape{
+    width: 228px;
+    height: 190;
+    background-image: url(imagens/Gold_Luxury_Initial_Circle_Logo__1_-removebg-preview\ 2.png) left;
+    margin-right:9px ;
+    
+    
+    
+
 }
 
 #rodape {
     width: 1184px;
+
     height: 153px;
+
+
+    height:153px ;
+    margin: 10px;
 
     display: flex;
 
@@ -285,10 +339,10 @@ footer {
 #rodape ul {
     flex-direction: column;
     font-family: 'KoHo', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
     width: 100px;
 }
 
@@ -296,6 +350,7 @@ footer {
 
     text-align: center;
     width: 100px;
+    
 }
 
 #lista_rodape li:hover {
@@ -305,8 +360,10 @@ footer {
     border-radius: 10px;
     transition: 1.2s;
     transform: scale(1.2);
+    padding: 10px;
 
 }
+
 
 
 
@@ -322,11 +379,20 @@ footer {
     margin-left: 100px;
 
 
+#Pagamentos{
+    
+    width: 469px;
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+
 }
 
 #Pagamentos h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     text-align: start;
     transform: translate(0%, -50%);
     color: white;
@@ -340,8 +406,13 @@ footer {
 
 }
 
+
 .icones_pagamentos2 {
     width: 90px;
+
+.icones_pagamentos2{
+    width: 101px;
+
     height: 65px;
 
 }
@@ -365,6 +436,7 @@ footer {
 
 }
 
+
 #Endereço {
     width: 100px;
     height: auto;
@@ -380,7 +452,26 @@ footer {
     font-weight: 200;
     width: 100px;
     height: 40px;
+
+#Endereço{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 250px;
+   
 }
+
+.lista_endereço li{
+    font-size: 24px;
+    font-family:'KoHo', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 200;
+    width: 300px;   
+
+}
+
 
 
 /*FONTES*/

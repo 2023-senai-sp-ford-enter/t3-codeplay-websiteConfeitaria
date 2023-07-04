@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100&display=swap');
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +16,22 @@ body
     background-color: #FAEBDA;
 }
 
+/* FONTES banner */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap');
 
-/* topo */
+
+
+/* TOPO */
 #topo{
-    background-image: url(/img/cupcakes-g7646ef9be_1280\ 2.png);
+
+   background-image: url(../img/cupcakebanner.png);
+
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -25,7 +39,6 @@ body
    margin: 0px auto;
    margin-top: auto 0px;
    margin-top: 10px;
-
 }
 
 nav{
@@ -33,17 +46,17 @@ nav{
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
-   
+
 }
 nav a:hover{
-    background-color: black;
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
+    color: black;
     transition: 1.2s;
-    opacity: 80%;
     border:#cf9a8f solid 2px;
     transform: scale(1.1);
-    box-shadow: 0 0 1.2em #eb5538, 0 0 1.2em #cf9a8f,
-    0 0 1.2em #a82d14;
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
@@ -89,7 +102,8 @@ h2{
     transform: translate(15%, 300%);
     
 }
-/* fim do topo */
+
+/* FIM DO TOPO */
 
 .titulo
 {
@@ -198,8 +212,6 @@ h2{
     align-items: center;
     font-size: 32px;
     font-family: Koh Santepheap; 
-    border-width: 3px 0px 3px 3px;
-    border-color: black;
 }
 
 
@@ -316,7 +328,6 @@ textarea:hover
     border: white 5px solid;
     box-shadow: 0 0 1em #df5b41, 0 0 1em #cf9a8f,
     0 0 1em #a76b5f;
-    
 }
 /* fim redes sociais */
 
@@ -351,11 +362,11 @@ textarea:hover
 
 /* COMEÇO FOOTER */
 footer{
-    width:100vw;
-    height: 200px;
+    width:1900px;
+    height: 300px;
     background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
     display: flex;
-    
+    padding: 50px;
 
 }
 .logo_rodape{
@@ -365,12 +376,13 @@ footer{
     margin-right:9px ;
     
     
+    
 }
 
 #rodape{
     width: 1184px;
     height:153px ;
-    
+    margin: 10px;
     display: flex;
     
     
@@ -399,6 +411,7 @@ footer{
     border-radius: 10px;
     transition: 1.2s;
     transform: scale(1.2);
+    padding: 10px;
 
 }
 
@@ -448,10 +461,7 @@ footer{
 }
 #caixa{
     width: 469px;
-    height: 20px;
-    margin-top: 70px;
-    
-    
+    height: 80px;
     
    
 }
@@ -461,7 +471,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 450px;
+    margin-left: 250px;
    
 }
 
@@ -472,8 +482,6 @@ footer{
     font-weight: 200;
     width: 300px;   
 }
-
-
 
 
 

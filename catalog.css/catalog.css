@@ -1,8 +1,28 @@
+
+
+
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 /* TOPO */
 
 
+
 #topo{
-    background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
+
+   background-image: url(/imagens/cupcakes-g7646ef9be_1280\ 2.png);
+
+   background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
+
    height: 283px;
    width: 1255px;
    border-radius: 52px;
@@ -21,10 +41,14 @@ nav{
    
 }
 nav a:hover{
-    background-color: black;
+    background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
-    transition: 1.5s;
-    opacity: 80%;
+    color: black;
+    transition: 1.2s;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #cf9a8f, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #cf9a8f;
 }
 
 
@@ -40,9 +64,12 @@ ul{
 
 li{
 margin: 10px;
-font-family: 'Vidaloka', sans-serif;
+
+font-family: 'Inter', sans-serif;
+
 
 font-size: 25px;
+font-weight: normal;
 
 
 
@@ -58,7 +85,6 @@ nav a{
 h2{
     color: white;
     font-style: normal;
-    font-family:  'Vidaloka', serif;
     font-weight: 400;
     line-height: 58px;
 }
@@ -73,18 +99,22 @@ h2{
 
 /* FIM DO TOPO */
 
+
 body {
+    
     background-color: #FAEBDA;
 }
 .ice-cream h1 {
-    
+
+   
+    font-family: 'Great Vibes', cursive;
     display: flex;
     justify-content: center;
     color: #4f2c1d;
     margin: auto;
-    margin-top: 10rem;
-    font-size: 150px;
-    border-radius: 200px;
+    font-size: 200px;
+   
+
 }
 
 .secProduto {
@@ -94,10 +124,7 @@ body {
     justify-content: space-around;
     bottom: 150px;
     border-radius: 100px;
-    /*height: 500px ;
-    width: 100%;
-    align-items: center;
-    */
+   
 }
 
 
@@ -106,7 +133,6 @@ body {
     height: 100%;
     border-style: initial;
     margin-top: -80px;
-    font-family:  'Vidaloka', serif;
     font-style: normal; 
     border-radius: 200px;
     
@@ -131,7 +157,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 15rem;
     border: 0px solid #000;
 
     
@@ -179,7 +205,6 @@ body {
     width: 50%;
     font-size: 28px;
     font-weight: bold;
-    text-transform: uppercase;
     color: #4f2c1d;
 }
 .conteudoCard>h1>p {
@@ -187,25 +212,33 @@ body {
     font-size: 23px;
     font-weight: bold;
     color: #4f2c1d;
+    
 }
 
 
 .conteudoCard>a>button {
-    height: 30px;
+    height: 55px;
     padding: 0.2rem 1rem 0.5rem;
     border: none;
     background-color: rosybrown;
+    font-weight: bold;
     color: #4f2c1d;
     font-size: 12px;
     text-transform: uppercase;
     transition: 0.5s;
     font-style: italic;
     border-radius: 150px;
+    background-color: rosybrown;
+    border-radius: 20px;
+    transition: 1.5s;
+    opacity: 80%;
+    
     
 }
 
 .conteudoCard button:hover {
     cursor: pointer;
+    transition: 1.5s;
 }
 
 .contentCard p {
