@@ -54,7 +54,7 @@
 
 
 
-    <form class="form-contato" action="https://formsubmit.co/lorranazevedo153@gmail.com" method="POST">
+    <form class="form-contato" action="https://formsubmit.co/lorranazevedo153@gmail.com" method="POST"> 
 
     <label for="name">Nome Completo</label> 
     <input type="text" name="name" placeholder="Digite seu nome aqui." required>
@@ -65,7 +65,13 @@
     <label for="message">Envie sua mensagem:</label>
     <textarea type="text" name="message" placeholder="Escreva sua mensagem aqui." cols="30" rows="5" required></textarea>
 
+    <input type="hidden" name="_captcha" value="false">
+    
     <button class="botao-enviar" type="submit" onclick="msg()">Enviar</button>
+    <input type="hidden" name="_next" value="http://127.0.0.1:3000/contato.html">
+    <input type="hidden" name="_template" value="box">
+    <input type="hidden" name="_subject" value="Novo envio!">
+
 
 
     <div class="flex-icones">
