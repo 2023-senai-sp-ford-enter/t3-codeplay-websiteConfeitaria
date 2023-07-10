@@ -434,6 +434,7 @@ footer{
     flex-direction: column;
     margin-top: 50px;
     margin-left: 250px;
+    list-style: none;
    
 }
 
@@ -443,4 +444,5 @@ footer{
     margin-bottom: 2px;
     font-weight: 200;
     width: 300px;   
+   
 }
