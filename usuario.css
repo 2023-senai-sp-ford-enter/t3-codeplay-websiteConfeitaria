@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Imagem de fundo*/
+body{
+    background: url(img_usuario/Rectangle\ 206.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/*Fundo preto para o conteudo*/
+.container{
+    width: 400px;
+    background: #E9CAC4;
+    border-radius: 20% 0;
+    box-shadow: 1px 2px 20px #f35e3c, 2px 6px 50px #181718;
+    padding: 50px 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+/* Estilização de inputs*/
+input{
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.input-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    transform: translateY(18px);
+    transition: .25s ease-in-out;
+}
+
+input:focus + label{
+    transform: translateY(-14px) scale(.8);
+    color:#c5452f
+}
+
+input:focus{
+    box-shadow: 0 1px 0 0 #c05126;
+    border-bottom: #c25726 1px solid;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Estilização de botão*/
+button{
+    background: transparent;
+    padding: 15px 50px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border:2px solid white;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+}
+
+button:hover{
+    background: rgba(255, 0, 0, 0.459);
+}
+
+
+.links-uteis p{
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.links-uteis a :hover{
+    color:#c5452f;
+}
+
+
+#redes{
+    margin: auto 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#redes a:hover {
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 1px 2px 20px #f35e3c, 2px 6px 50px #c433c4;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, rgb(233, 233, 125),rgb(159, 224, 159),rgb(235, 149, 149),rgb(120, 120, 241));
+
+}
+
+
+
+#redes .facebook :hover {
+    transform: scale(1.1);
+    transition: 1.2s;
+    box-shadow: 1px 2px 20px #4236f3, 2px 6px 50px #685cd4;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, rgb(21, 116, 240),rgb(113, 144, 243),rgb(114, 113, 156),rgb(120, 120, 241));
+
+}
+p{
+    text-align: center;
+    color: white ;
+    font-size: 20px;
+    margin: 20px;
+}
+  
+hr{
+    border: 1px white solid;
+    color: white ;
+    margin: 10px;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    transition: .25s ease-in-out;
+}
+
+div a:hover{
+    color:#c25726;
+}
+
+
+
+input:not(:placeholder-shown) + label{
+    transform: translateY(-14px) scale(.8);
+}
+
+input::placeholder{
+    color:transparent;
+}

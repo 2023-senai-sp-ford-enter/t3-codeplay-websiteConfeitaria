@@ -1,6 +1,19 @@
 
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
 
+    background: #FAEBDA;
+    height: auto;
+    
+    
+  
+    
+}
 /* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
@@ -33,14 +46,14 @@
 
 }
 
-nav{
+#topo nav{
     width: 500px;
     height: 40px;
     color: white;
     transform: translate(105%, 400%);
    
 }
-nav a:hover{
+#topo nav a:hover{
     background: rgba(255, 255, 255, 0.39);
     border-radius: 10px;
     color: black;
@@ -52,7 +65,7 @@ nav a:hover{
 }
 
 
-ul{
+#topo ul{
 
     list-style: none;
     display: flex;
@@ -62,7 +75,7 @@ ul{
     
 }
 
-li{
+#topo li{
 margin: 10px;
 
 font-family: 'Inter', sans-serif;
@@ -74,7 +87,7 @@ font-weight: normal;
 
 
 }
-nav a{
+#topo nav a{
     text-decoration: none;
     color: white;
     
@@ -100,165 +113,178 @@ h2{
 /* FIM DO TOPO */
 
 
-body {
-    
-    background-color: #FAEBDA;
-}
+
 .ice-cream h1 {
 
    
     font-family: 'Great Vibes', cursive;
-    display: flex;
-    justify-content: center;
     color: #4f2c1d;
-    margin: auto;
+    margin:0px auto;
     font-size: 200px;
-   
-
-}
-
-.secProduto {
+    width: 200px;
+    font-size: 50px;
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
+}
+/* Começo do sub-menu */
+.containerSubNavBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+ .sub-navbar{
+    
+    width: 600px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform .2s;
+    border-radius: 0.5rem;
+    
+ 
+    
+    
+ }
+
+
+.sub-navbar ul li{
+    list-style: none;
+   
+    padding: 10px;
+    margin: 2px;
+    
+    
+    
+}
+ .sub-navbar li:hover{
+    scale: 1.2;
+    border-radius: 10px;
+    background-color: rgba(211, 108, 133, 0.603);
+    
+    
+    
+ }
+ .sub-navbar ul li{
+    transition: all 500ms;
+    
+ }
+
+ .sub-navbar ul{
+    display:flex;
+    justify-content: space-around;  
+    width: 800px; 
+    font-size: 25px;
+    transition: all 500ms;
+ 
+    
+    
+ }
+
+.sub-navbar a {
+  
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+ }
+ .sub-navbar a :hover{
+    color: white;
+ }
+
+
+/* fim do sub-menu */
+    
+
+
+    
+#container{
+    width: 1500px;
+    height: 1400px;
+    
+    margin: 0px auto;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    margin-top: -200px;
-    justify-content: space-around;
-    bottom: 150px;
-    border-radius: 100px;
+    margin-top: 200px;
    
-}
-
-
-.containerCard {
-    justify-content: space-between;
-    height: 100%;
-    border-style: initial;
-    margin-top: -80px;
-    font-style: normal; 
-    border-radius: 200px;
+  
+    margin-bottom: 100px;
+  
     
-}
-
-.contentCard {
-    height: 20%;
-    justify-content: space-around;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    
+   
+   
+  
     
     
 
 }
 
-
-.card {
-    width: 30rem;
-    height: 100%;
-    background-color: #E9CAC4;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15rem;
-    border: 0px solid #000;
-
-    
+.child{
+    width: 438px;
+    height: 657px;
+    border-radius:30px ;
+    background: #E9CAC4;
+    font-size: 40px;
+    box-shadow: 0px 5px 10px black;
     
 }
-
-.containerCardImg {
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border-radius: 200px;
-}
-
-.containerCardImg > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    margin-top: 2rem;
-    border: 10px solid rosybrown;
-    transition: 1s;font-size: 10px;
-    cursor: pointer; 
-    box-shadow: 10px 10px  #FAEBDA;
-    
-}
-
-.containerCardImg>img {
-    object-position: bottom;
-    
-}
-
-.conteudoCard {
-    display: flex;
-    justify-self: center;
-    width: 90%;
-    height: 15%;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.conteudoCard>h1 {
-    width: 50%;
-    font-size: 28px;
-    font-weight: bold;
-    color: #4f2c1d;
-}
-.conteudoCard>h1>p {
-    width: 20%;
-    font-size: 23px;
-    font-weight: bold;
-    color: #4f2c1d;
-    
-}
-
-
-.conteudoCard>a>button {
-    height: 55px;
-    padding: 0.2rem 1rem 0.5rem;
-    border: none;
-    background-color: rosybrown;
-    font-weight: bold;
-    color: #4f2c1d;
-    font-size: 12px;
-    text-transform: uppercase;
-    transition: 0.5s;
-    font-style: italic;
-    border-radius: 150px;
-    background-color: rosybrown;
-    border-radius: 20px;
-    transition: 1.5s;
-    opacity: 80%;
-    
-    
-}
-
-.conteudoCard button:hover {
-    cursor: pointer;
-    transition: 1.5s;
-}
-
-.contentCard p {
-    color: #4f2c1d;
-    white-space: pre-wrap;
-    margin-left: 2rem;
+.child h2{
+    color: black;
     text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 40px;
+    
 
 }
 
+.image-produto{
+    margin: 0px auto;
+    width: 383px;
+    height: 369px;
+    border-radius: 20px;
+    
+    
 
+}
 
-/* COMEÇO FOOTER */
+.child p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+}
+
 footer{
-    width:100vw;
-    height: 200px;
+    width:5000px;
+    height: 300px;
+    border: 1px solid black;}
+
+
+
+
+/* Começo do footer */
+footer{
+    width:5000px;
+    height: 300px;
+    border: 1px solid black;}
+
+
+
+footer{
+    width:1900px;
+    height: 300px;
     background-image: linear-gradient(40deg,black,  rgb(51, 47, 42));
     display: flex;
-    margin-top: 20px;
-    
+    padding: 50px;
+    margin-top: 100px;
 
 }
 .logo_rodape{
@@ -268,13 +294,14 @@ footer{
     margin-right:9px ;
     
     
+    
 }
 
 #rodape{
     width: 1184px;
     height:153px ;
+    margin: 10px;
     display: flex;
-    
     
     
 }
@@ -286,17 +313,14 @@ footer{
     margin-right: 80px;
     margin-left: 80px;
     width: 100px;
-    
-    
-    
 }
 
 #lista_rodape li{
     
-    text-align:center;
-    width:100px;
-    margin-top: -10px;
-   
+    text-align:center ;
+    width: 100px;
+    list-style: none;
+    padding: 10px;
     
 }
     
@@ -307,7 +331,7 @@ footer{
     border-radius: 10px;
     transition: 1.2s;
     transform: scale(1.2);
-  
+    padding: 10px;
 
 }
 
@@ -367,8 +391,8 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    margin-left: 300px;
-    margin-right: 300px;  
+    margin-left: 250px;
+    list-style: none;
    
 }
 
@@ -377,7 +401,11 @@ footer{
     font-family:'KoHo', sans-serif;
     margin-bottom: 2px;
     font-weight: 200;
-    width: 300px; 
-    
+    width: 300px;   
+    list-style: none;
+   
 }
 
+
+    
+    

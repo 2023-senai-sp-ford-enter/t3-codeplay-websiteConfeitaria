@@ -53,12 +53,17 @@ nav {
 
 }
 
-nav a:hover {
-    background-color: black;
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
-    transition: 1.5s;
+    transition: 1.2s;
     opacity: 80%;
+    border:#cf9a8f solid 2px;
+    transform: scale(1.1);
+    box-shadow: 0 0 1.2em #eb5538, 0 0 1.2em #cf9a8f,
+    0 0 1.2em #a82d14;
 }
+
 
 
 ul {
@@ -89,47 +94,99 @@ nav a {
 
 
 
-h1{
+.titulo{
     color: #582F0E;
     font-size: 63.724px;
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    width: 1138px;
-    height: 86px;
-    flex-direction: column;
-    flex-shrink: 0;
+    font-weight: 400;
     margin-bottom: 10px;
+    margin-left: 130px;
+    margin-top: 55px;
 }
+
+/*comeco nossa historia*/
 
 .box1{
     border-radius: 38px;
-    width: 437px;
-    height: 261px;
-    float: left;
-    margin-right: 31px;
-    
+    width: 495px;
+    height: 362px;  
 } 
 
 .box2{
     border-radius: 38px;
-    width: 437px;
-    height: 261px;
-    float: right;
-    margin-left: 31px;
-    margin-bottom: 10px;
-    
-    
+    width: 495px;
+    height: 362px; 
 }
-.box3{
 
+.box3{
     border-radius: 38px;
-    width: 437px;
-    height: 261px;
-    float: left;
-    margin-right: 31px;
-    margin-top: 10px;
-    
+    width: 495px;
+    height: 362px; 
 }
+
+.inicio{
+    padding: 50px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;  
+    text-align: bottom;
+}
+
+.meio{
+    padding: 50px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 10px;
+    display: flex;
+}
+    
+
+.fim{
+    padding: 50px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: bottom;
+}
+.inicio >h3{ 
+    position: absolute;
+    color: white;
+    font-size:larger;
+    width: normal;
+    font-family: 'Inter', sans-serif;
+    margin-left: 15px;
+    margin-top:320px;
+}
+
+.fim >h3{ 
+    position: absolute;
+    color: white;
+    font-size:larger;
+    width: normal;
+    font-family: 'Inter', sans-serif;
+    margin-left: 15px;
+    margin-top:320px;
+}
+
+
+
+p{
+    word-spacing: 5px;
+    line-height: 1.5;
+    font-size:large;
+    font-family: 'Arvo';
+    gap: 5px;
+    color: #582F0E;
+}
+
+/*mesa de fotos*/
 
 .box4{
     
@@ -145,33 +202,9 @@ h1{
     height: 250px;
 }
 
-.container .content {
-    bottom: 0;
-    color: #f1f1f1; 
-    width: 100%;
-    
-}
-
-.inicio{
-    padding: 50px;
-    margin-bottom: 20px;
-    gap: 5px;
-    
-    
-}
-
-.meio{
-    padding: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    gap: 5px;
-}
-
-.fim{
-    padding: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    gap: 5px;
+.box7{
+    width: 400px;
+    height: 250px;
 }
 
 .secao-de-fotos{
@@ -179,15 +212,19 @@ h1{
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 10px;
     gap: 10px;
-
-    
 }
 
+/*fim*/
 
-
+.container .content {
+    bottom: 0;
+    color: #f1f1f1; 
+    width: 100%;
+    
+}
 
 /*rodape*/
 
