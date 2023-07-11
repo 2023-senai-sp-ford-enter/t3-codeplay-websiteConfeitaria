@@ -187,44 +187,53 @@ p{
 }
 
 /*mesa de fotos*/
-
-.box4{
-    
-    width: 400px;
-    height: 250px;
-}
-.box5{
-    width: 400px;
-    height: 250px;
-}
-.box6{
-    width: 400px;
-    height: 250px;
-}
-
-.box7{
-    width: 400px;
-    height: 250px;
-}
-
-.secao-de-fotos{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    gap: 10px;
-}
-
-/*fim*/
-
-.container .content {
-    bottom: 0;
-    color: #f1f1f1; 
+.carousel {
+    position: relative;
     width: 100%;
-    
-}
+    height: 300px; /* Defina aqui a altura desejada para o carrossel */
+    overflow: hidden;
+  }
+  
+.carousel-inner{
+    display: flex;
+    width:100%;
+    transition: transform 0.5s ease-in-out;
+    height: 300px;
+  }
+  
+  .carousel-item {
+    flex: 0 0 20%;
+    padding: 15px;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+    top:60%;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+    top:60%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 
 
