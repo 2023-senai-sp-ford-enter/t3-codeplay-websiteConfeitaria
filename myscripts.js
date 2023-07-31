@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const nextButton = carousel.querySelector(".carousel-control.next");
     
     let currentIndex = -2;
-    const itemWidth = carouselItems[0].offsetWidth;
+    const itemWidth = carouselItems[1].offsetWidth;
     const itemsPerSlide = Math.floor(carousel.offsetWidth / itemWidth);
     const totalSlides = Math.ceil(carouselItems.length / itemsPerSlide);
     const slidesToScroll = itemsPerSlide;
     
     let autoSlide = null;
-    const slideDelay = 2000; // Defina aqui o tempo de espera (em milissegundos) entre cada rolagem automática
+    const slideDelay = 2000; // Defina aqui o tempo de espera (em milissegundos) entre cada rolagem automática const slide
+
     
     function startAutoSlide() {
       autoSlide = setInterval(function() {
@@ -23,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     
     function stopAutoSlide() {
-      const slideDelay=2000;
+      const slideDelay=3000;
       clearInterval(autoSlide);
     }
     
