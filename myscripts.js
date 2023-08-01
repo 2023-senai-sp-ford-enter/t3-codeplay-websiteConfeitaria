@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const nextButton = carousel.querySelector(".carousel-control.next");
     
     let currentIndex = -2;
-    const itemWidth = carouselItems[1].offsetWidth;
+    const itemWidth = carouselItems[0].offsetWidth;
     const itemsPerSlide = Math.floor(carousel.offsetWidth / itemWidth);
     const totalSlides = Math.ceil(carouselItems.length / itemsPerSlide);
     const slidesToScroll = itemsPerSlide;
@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         currentIndex = (currentIndex === totalSlides - 2) ? 0 : currentIndex + 1;
         carouselInner.style.transform = `translateX(-${currentIndex * itemWidth * slidesToScroll}px)`;
       }, slideDelay);
-      
     }
     
     function stopAutoSlide() {
