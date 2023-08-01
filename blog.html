@@ -102,104 +102,110 @@
                 sum is appreciated - click here to donate using PayPal. Tha.</p>
         </div>
     </div>
+    <br><br><br><br>
 
 
-    
 
-    
+
 
 
     <!--rodapé-->
 
 
     <!--interação de comentários-->
-
-
-
+ 
     <div class="containerlogin">
-
         <div class="comentario">
             <h2 class="tp">Comentários e Avaliações</h2>
+            <form id="formulario" class="w-25 p-5">
+            
+                <div class="mb-3">
+                    <label for="inputName" class="form-label"></label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Seu nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="textComment" class="form-label"></label>
+                    <textarea class="form-control" id="textComment" rows="3" placeholder="comente..."
+                        required></textarea>
+                </div class="d-flex justify-content-center">
+                <button type="submit" class="btn bg-white" onclick="comentar()">comentar</button>
+            </form>
+        </div>
+         
+        <div class="comente">
+        <div class="d-flex justify-content-center">
+            <div class="w-25 p-5" id="comentario">
+                <h3>Comentários: </h3>
+                <p></p>
+            </div>
+
         </div>
 
 
+        <div class="d-flex justify-content-center">
+          
 
-        <form class="comente">
-            <label>Registre seu feedback:  </label>
-            <input type="text" id="entradaUsuario"> <br>
-            <input type="button" value="comentar" onclick="inserir()">
-             <label for="n1"></label>
-
-
-                <ul id="lista">
-                    <p></p>
-                </ul>
-            
-            
-
-        </form>
-
+        </div>
+        </div>
 
         <div class="usuario">
             <h3>LOGIN</h3>
             <p><a href="colaborador.html"><img src="img_blog/icone-chapeu.png">Colaborador</a></p>
             <p><a href="usuario.html"><img src="img_blog/icone usuario.png"> Usuário</a></p>
         </div>
-
-
     </div>
 
-   <!-- footer -->
+    <br><br><br><br>
+    <!-- footer -->
 
-   <footer>
-    <section class="logo_rodape">
-        <img src="imagens/Gold_Luxury_Initial_Circle_Logo__1_-removebg-preview 2.png" alt="">
-    </section>
-    <section id="rodape">
-        <ul id="lista_rodape">
-            <li>Delivery</li>
-            <li>Contato</li>
-            <li>Blog</li>
-        </ul>
-        <section id="Pagamentos">
-           <div id="caixa">
-            <h1>Formas de Pagamentos</h1>
-           </div>
-            <div class="icones_pagamentos1">
-                <img src="imagens/image 1.png" alt="">
-            </div>
-            <div class="icones_pagamentos2">
-                  <img src="imagens/image 2.png" alt="">
-            </div>
-
-
-            <div class="icones_pagamentos3">
-                <img src="imagens/image 3.png" alt="">
-            </div>
-
-            <div class="icones_pagamentos4">
-                <img src="imagens/image 4.png" alt="">
-
-            </div>
-
+    <footer>
+        <section class="logo_rodape">
+            <img src="imagens/Gold_Luxury_Initial_Circle_Logo__1_-removebg-preview 2.png" alt="">
         </section>
-
-        <section id="Endereço">
-            <ul class="lista_endereço">
-                <li>Nosso endereço</li>
-                <li>Rua dos Paratis-2409 </li>
-                <li>Shopping San Francisco</li>
+        <section id="rodape">
+            <ul id="lista_rodape">
+                <li>Delivery</li>
+                <li>Contato</li>
+                <li>Blog</li>
             </ul>
+            <section id="Pagamentos">
+                <div id="caixa">
+                    <h1>Formas de Pagamentos</h1>
+                </div>
+                <div class="icones_pagamentos1">
+                    <img src="imagens/image 1.png" alt="">
+                </div>
+                <div class="icones_pagamentos2">
+                    <img src="imagens/image 2.png" alt="">
+                </div>
+
+                <div class="icones_pagamentos3">
+                    <img src="imagens/image 3.png" alt="">
+                </div>
+
+                <div class="icones_pagamentos4">
+                    <img src="imagens/image 4.png" alt="">
+
+                </div>
+
+            </section>
+
+            <section id="Endereço">
+                <ul class="lista_endereço">
+                    <li>Nosso endereço</li>
+                    <li>Rua dos Paratis-2409 </li>
+                    <li>Shopping San Francisco</li>
+                </ul>
+            </section>
+
         </section>
 
-    </section>
 
-   
- </footer>
+    </footer>
 
- <!-- Fim do footer -->
+    <!-- Fim do footer -->
 
- <!-- Fim do footer -->
+
 </body>
 
 
