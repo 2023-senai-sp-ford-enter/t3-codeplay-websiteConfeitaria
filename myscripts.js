@@ -12,18 +12,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const slidesToScroll = itemsPerSlide;
     
     let autoSlide = null;
-    const slideDelay = 2000; // Defina aqui o tempo de espera (em milissegundos) entre cada rolagem automática
+    const slideDelay = 2000; // Defina aqui o tempo de espera (em milissegundos) entre cada rolagem automática const slide
+
     
     function startAutoSlide() {
       autoSlide = setInterval(function() {
         currentIndex = (currentIndex === totalSlides - 2) ? 0 : currentIndex + 1;
         carouselInner.style.transform = `translateX(-${currentIndex * itemWidth * slidesToScroll}px)`;
       }, slideDelay);
-      
     }
     
     function stopAutoSlide() {
-      const slideDelay=2000;
+      const slideDelay=3000;
       clearInterval(autoSlide);
     }
     
