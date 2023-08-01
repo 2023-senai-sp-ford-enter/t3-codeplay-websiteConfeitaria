@@ -32,9 +32,7 @@ body {
 
 #topo{
 
-   background-image: url(/imagens/cupcakes-g7646ef9be_1280\ 2.png);
-
-   background-image: url(../imgcatalog/cupcakes-g7646ef9be_1280\ 2.png);
+   background-image: url(../imgcatalog/banner.png);
 
    height: 283px;
    width: 1255px;
@@ -100,6 +98,7 @@ h2{
     font-style: normal;
     font-weight: 400;
     line-height: 58px;
+    margin: 50px;
 }
 .logo{
     
@@ -138,7 +137,7 @@ h2{
     
     width: 600px;
     padding: 15px;
-    margin-top: 20px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,8 +201,8 @@ h2{
 
     
 #container{
-    width: 1500px;
-    height: 1400px;
+    width: 1800px;
+    height: auto;
     
     margin: 0px auto;
     
@@ -211,7 +210,7 @@ h2{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 200px;
+    margin-top: 100px;
    
   
     margin-bottom: 100px;
@@ -227,13 +226,13 @@ h2{
 }
 
 .child{
-    width: 438px;
-    height: 657px;
+    width: 500px;
+    height: auto;
     border-radius:30px ;
     background: #E9CAC4;
     font-size: 40px;
     box-shadow: 0px 5px 10px black;
-    
+    margin: 30px;
 }
 .child h2{
     color: black;
@@ -250,6 +249,7 @@ h2{
     width: 383px;
     height: 369px;
     border-radius: 20px;
+    margin-top:50px ;
     
     
 
@@ -259,7 +259,7 @@ h2{
     text-align: center;
     font-size: 24px;
     font-weight: 400;
-    margin: 10px;
+    margin: 50px;
 }
 
 footer{
