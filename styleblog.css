@@ -97,6 +97,7 @@ body {
     color: #5e2b01d5;
     font-family: 'Raleway', sans-serif;
     font-family: 'Ysabeau SC', sans-serif;
+    text-align: center
 
 }
 
@@ -274,9 +275,25 @@ h2{
     background-color: #FAEBDA;
     margin-right: 5px;
     margin-left: 15px;
+   
+    padding: 10px;
+    
+    
     
     
 }
+.mb-3{
+   
+   
+    margin: 10px;
+
+}
+
+#inputName{
+ border-radius: 10px;
+}
+
+
 
 
 .comente {
@@ -333,6 +350,9 @@ input{
 
 button {
     background: #fdd0c8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px;
 }
 
 
