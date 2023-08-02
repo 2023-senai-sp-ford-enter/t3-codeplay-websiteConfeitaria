@@ -202,7 +202,6 @@ input {
 }
 
 .containerlogin {
-
     display: flex;
     justify-content: space-around;
     width: 1900px;
@@ -295,6 +294,31 @@ button {
 
 
 /* fim dos logins */
+
+
+
+
+/* convite para fazer login */
+
+.façaparte{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    background-color: #FAEBDA;
+    align-items: center;
+    padding: 25px;
+    background-color: #f1c6be;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* COMEÇO FOOTER */
