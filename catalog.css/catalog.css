@@ -133,6 +133,7 @@ h2{
     margin-top: 20px;
    
 }
+
  .sub-navbar{
     
     width: 600px;
@@ -224,7 +225,6 @@ h2{
     
 
 }
-
 .child{
     width: 500px;
     height: auto;
@@ -235,7 +235,7 @@ h2{
     margin: 30px;
 }
 .child h2{
-    color: black;
+    color: #4f2c1d;
     text-align: center;
     font-weight: 400;
     margin-bottom: 10px;
