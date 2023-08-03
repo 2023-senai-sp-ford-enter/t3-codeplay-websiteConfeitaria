@@ -264,16 +264,44 @@ h2{
     margin: auto;
 }
 
-.usuario {
+.usuariob {
+    width: 200px;
+    background-color: #f1c6be;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 25px;
+    background-color: #f1c6be;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif; 
+}
 
-    width: 300px;
+
+.usuariob a{
+    text-decoration: none;
+}
+
+
+
+.usuario {
+    width: 200px;
     background-color: #FAEBDA;
 }
+
+.usuario a{
+    text-decoration: none;
+  
+}
+    
 
 .comentario {
     width: 300px;
     background-color: #FAEBDA;
     margin-right: 5px;
+
     margin-left: 15px;
    
     padding: 10px;
@@ -281,6 +309,8 @@ h2{
     
     
     
+
+  
 }
 .mb-3{
    
@@ -358,26 +388,6 @@ button {
 
 
 /* fim dos logins */
-
-
-
-
-/* convite para fazer login */
-
-.façaparte{
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
-    background-color: #FAEBDA;
-    align-items: center;
-    padding: 25px;
-    background-color: #f1c6be;
-}
-
-
-
-
-
 
 
 
